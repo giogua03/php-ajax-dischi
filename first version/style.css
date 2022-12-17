@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(39,45,59,255);
+}
+main {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(39,45,59,255);
+    color: white;
+    margin: auto;
+}
+img {
+    height: 200px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+h1 {
+    font-size: 1.5rem;
+}
+header {
+    background-color: rgba(48,58,70,255);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo {
+    height: 60px;
+}
